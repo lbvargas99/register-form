@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign UP</title>
+</head>
+
+<body>
+    <main>
+        <section class="general-form">
+            <h2>General Information</h2>
+            <form>
+                <select name="title" id="title" required>
+                    <option value="Title">Title</option>
+                    <option value="Businessman">Businessman</option>
+                    <option value="Reporter">Reporter</option>
+                    <option value="Secretary">Secretary</option>
+                </select>
+                <br>
+
+                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                <input type="text" name="first-name" id="last-name" placeholder="Last Name">
+                <br>
+
+                <select name="position" id="position" required>
+                    <option value="position">Position</option>
+                    <option value="director">Director</option>
+                    <option value="manager">Manager</option>
+                    <option value="employee">Employee</option>
+                </select>
+                <br>
+
+                <input type="text" placeholder="Company">
+                <br>
+
+                <input type="text" placeholder="Business Area">
+                <select name="employees" id="employees" required>
+                    <option value="employees">Employees</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="colleague">Colleague</option>
+                    <option value="associate">Associate</option>
+                </select>
+            </form>
+        </section>
+
+        <section class="contact-details">
+            <h2>Contact Details</h2>
+
+            <form action="">
+                <input type="text" placeholder="Street + Nr">
+                <br>
+                <input type="text" placeholder="Additional Information">
+                <br>
+                <input type="text" placeholder="Zip Code">
+                <select name="employees" id="employees" required>
+                    <option value="place">Place</option>
+                    <option value="street">Street</option>
+                    <option value="district">District</option>
+                    <option value="city">City</option>
+                </select>
+                <br>
+                <select name="employees" id="employees" required>
+                    <option value="country">Country</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="spain">Spain</option>
+                </select>
+                <br>
+
+                <input type="text" placeholder="Code +">
+                <input type="tel" placeholder="Phone Number">
+                <br>
+
+                <input type="email" placeholder="Your e-mail">
+                <br>
+
+                <div id="terms-label">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">I do accept the <em>Terms and Conditions</em> of your site.</label>
+                </div>
+                <br>
+
+                <div>
+                    <button>Register Badge</button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>

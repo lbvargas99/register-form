@@ -1,0 +1,136 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #8BC4EB, #949BE2);
+    height: 100vh;
+}
+
+/* @media (max-width: 768px) {} */
+
+@media (max-width: 480px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* GENERAL FORM */
+    .general-form {
+        background-color: white;
+        border-radius: 10px 10px 0 0;
+
+        width: 350px;
+        padding: 20px 20px 60px 20px;
+        margin: 50px auto 0;
+    }
+
+    .general-form h2 {
+        color: #2271dd;
+        font-weight: 500px;
+    }
+
+    .general-form select,
+    .general-form input {
+        background-color: transparent;
+        color: gray;
+        width: 100%;
+
+        border: hidden;
+        border-bottom: 0.5px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+
+        cursor: pointer;
+    }
+
+    input {
+        padding-left: 20px;
+        width: 93.715% !important;
+    }
+
+    .general-form input:focus,
+    select:focus {
+        outline: none;
+        border-bottom: 0.5px solid gray;
+    }
+
+    .general-information input::placeholder {
+        color: gray;
+    }
+
+    select {
+        padding-left: 15px;
+    }
+
+
+    /* CONTACT DETAILS */
+    .contact-details {
+        background-color: #4835D4;
+        border-radius: 0px 0px 10px 10px;
+
+        width: 350px;
+        padding: 20px 20px 60px 20px;
+        margin: 0 auto 50px;
+    }
+
+    .contact-details h2 {
+        color: white;
+        font-weight: 500px;
+    }
+
+    .contact-details select,
+    .contact-details input {
+        background-color: transparent;
+        color: white;
+        width: 100%;
+
+        border: hidden;
+        border-bottom: 0.5px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+
+        cursor: pointer;
+    }
+
+    .contact-details input::placeholder {
+        color: white;
+    }
+
+    .contact-details input:focus,
+    select:focus {
+        outline: none;
+        border-bottom: 0.5px solid white;
+    }
+
+    #terms-label {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: start;
+        color: white;
+    }
+
+    #terms-label input {
+        width: 32px !important;
+    }
+
+    #terms-label em {
+        text-decoration: underline;
+    }
+
+    div button {
+        padding: 12px;
+        background-color: #ccc;
+        border-radius: 25px;
+
+        width: 180px;
+        margin: 20px 0 20px 0;
+
+        font-weight: 600;
+        border: hidden;
+
+        text-align-last: center;
+    }
+}
