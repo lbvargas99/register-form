@@ -10,7 +10,7 @@ O Projeto contará com versões mobile e desktop e validação de endereço
  - **JavaScript - JavaScript** é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
 
 ## Status do Projeto
-**Em desenvolvimento:** O projeto esta em andamento (Adicionar página de cadastro).
+**Em desenvolvimento:** O projeto esta em andamento. (Não possuí telas no momento)
 
 ## Autor
 - **Desenvolvimento: Leonardo Borges** - Responsável pelo desenvolvimento da página;
